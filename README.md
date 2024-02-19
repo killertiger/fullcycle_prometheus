@@ -40,3 +40,11 @@ Recommendation use dashboard:
 https://grafana.com/grafana/dashboards/14282-cadvisor-exporter/
 
 Dashboard -> Import -> Dashboard Id: 14282 -> Import
+
+
+## Running Golang application
+
+```
+$ docker compose exec -it app bash
+$ go run main.go 
+```
